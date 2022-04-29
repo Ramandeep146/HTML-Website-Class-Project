@@ -1,0 +1,105 @@
+body{background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)),radial-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(images/background3.jpg);
+     color:#c7b8a3;
+	 background-attachment:fixed;
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 background-color:black;
+	 }
+	 
+header{font-family: 'Trade Winds';
+       font-size:80px;
+	   text-indent:50px;
+	   padding:10px}
+	   
+header span{color:purple;}	   
+	 
+nav ul li {color:#c7b8a3;
+	display:inline;
+    margin-right:30px;}	 
+	 
+nav{padding:0.08em;
+    text-align:center;
+	background:linear-gradient(rgba(128, 0, 128, 0.8),rgba(128, 0, 128, 0.3));
+	border-radius:25px;}
+
+a{text-decoration:none;
+      color:#ffffff;
+	  font-size:17.5px;}
+nav a:hover{text-decoration:underline;}
+
+		   
+
+.block1{float:left;
+		width:800px;
+		border-right-style:solid;
+		border-image: linear-gradient(to bottom, #9B019B, rgba(0, 0, 0, 0)) 1 100%;
+		margin-left:20px}		
+
+.block1 li{list-style-type:none;
+		   display:inline;}
+
+.block1 img{margin:10px}		   
+
+.block1 img:hover{opacity:0.5;}
+
+.block1 div a:hover{color:#9B019B;}
+
+.block1 h1{color:#D870BB;
+           margin-left:20px;
+		   font-size:40px;		   
+		   }
+   
+
+.block2 a:hover{text-decoration:underline;}		  
+
+.block2{
+        position:relative;
+		float:left;
+		padding-left:8px;
+		}
+		
+.block2 ul{width:100%;}
+
+.block2 li{font-weight:300;
+		   line-height:0.81em;
+		   padding:4px 0 5px;
+		   color:#9B019B;
+		   line-height:20px;
+		   text-align:left;}		   
+
+.block2 h2{font-size:28px;
+           text-indent:40px;}
+
+.text{
+  width:180px;
+  text-align:center;
+  display:block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float:left;
+}
+
+.block1 div:hover{color:purple;}
+
+#index-gallery{
+  width:465px;
+}		   	   
+		   
+#wrapper { width: 70%;
+           margin-left: auto;
+		   margin-right: auto;
+		   min-width: 1000px;
+		   max-width: 1280px;
+		   background-color:rgba(0, 0, 0, 0.5);
+		   border-radius: 25px;
+		   padding:10px;}
+
+#netwrapper { width: 70%;
+           margin-left: auto;
+		   margin-right: auto;
+		   min-width: 1000px;
+		   max-width: 1280px;}		   
+		   
+footer{clear:both;
+       font-family:arial,san-serif;
+	   font-size:12px}		   
